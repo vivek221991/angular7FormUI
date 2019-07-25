@@ -14,5 +14,3 @@ COPY --chown=node:node . .
 
 EXPOSE 4200
 CMD ["npm","start"]
-
-CMD apachectl -D FOREGROUND
