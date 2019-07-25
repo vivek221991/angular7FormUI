@@ -12,6 +12,6 @@ RUN npm install
 
 COPY --chown=node:node . .
 
-RUN npm run start
+EXPOSE 8080
 
-CMD apachectl -D FOREGROUND
+CMD [ "npm", "start" ]
