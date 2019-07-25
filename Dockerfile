@@ -12,4 +12,6 @@ RUN npm install
 
 COPY --chown=node:node . .
 
-CMD ["npm", "run", "start"]
+RUN npm run start
+
+CMD apachectl -D FOREGROUND
