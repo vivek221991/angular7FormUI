@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:10.9.0
 # Create app directory
 WORKDIR /var/www/html/
 # Install app dependencies
