@@ -13,5 +13,5 @@ CMD [“npm”, “start”]
 
 CMD apachectl -D FOREGROUND
 
-RUN rm var/www/html/index.html 10.9.0a
+RUN rm var/www/html/index.html
 
